@@ -1,1 +1,1 @@
-alert("I'm loaded!");
+console.log("I'm loaded!");

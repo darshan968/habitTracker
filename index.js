@@ -9,5 +9,8 @@ app.set("views", "public");
 app.get("/", (req, res) => {
     res.render("index.ejs", { title: "Habit Tracker App" });
 });
+app.get("/add-habit",(req,res)=>{
+    res.render("add.ejs",{title:"Add Habit"});
+})
 
 export default app;
